@@ -1,0 +1,26 @@
+{
+    "name": "grfgit/user",
+    "description": "A sample project to add and list users.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Reza Farhang",
+            "email": "greza.farhangg@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Api\\": "api/",
+            "Core\\": "core/",
+            "Config\\": "config/"
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+
+    }
+}
